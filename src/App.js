@@ -8,12 +8,13 @@ import {
   View,
   Card,
 } from "@aws-amplify/ui-react";
+
 import Amplify from 'aws-amplify';
-import awsconfig from './aws-exports';
+import config from './aws-exports';
 
-Amplify.configure(awsconfig);
+Amplify.configure(config);
 
-function App( { signOut } ) {
+function App({ signOut }) {
   return (
     <View className="App">
       <Card>
@@ -26,5 +27,3 @@ function App( { signOut } ) {
 }
 
 export default withAuthenticator(App);
-
-
