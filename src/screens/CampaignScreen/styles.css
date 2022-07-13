@@ -1,0 +1,123 @@
+.CouponContainer {
+  /* background-color: yellow; */
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+}
+
+.CouponItemContainer {
+  border-radius: 2pt;
+  /* background-color: red; */
+  flex-direction: column;
+  flex: 14;
+  padding: 35pt;
+  border:1px solid black;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.CouponItemContainerSelected {
+  border-radius: 2pt;
+  /* background-color: red; */
+  flex-direction: column;
+  flex: 14;
+  padding: 35pt;
+  border:5px solid green;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.CouponItemContainerDescription {
+  display: block;
+  font-size: 5em;
+  text-align: center;
+}
+
+.CouponItemText {
+  font-size: 14pt;
+}
+
+.CouponItemContainerExpiration {
+  display: block;
+  font-size: 5em;
+  text-align: center;
+}
+
+.EditDeleteContainer {
+  margin-top: 15pt;
+  margin-right: 15pt;
+  margin-bottom: 15pt;
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+  justify-content: center;
+  /* position: fixed;
+  bottom: 15px;
+  left: 50%;
+  opacity: 1; */
+}
+
+/* .EditDeleteContainer {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  font-size: 5em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+} */
+
+.EditButton {
+  /* display: flex;
+  flex: 2; */
+  /* width: 100%; */
+  /* background-color: blue;
+  font-size: 5em;
+  padding: 50px; */
+  width: 55px;
+  height: 40px;
+  text-align: center;
+  /* margin: 15pt; */
+  
+}
+.DeleteButton {
+  /* display: flex;
+  flex: 2; */
+  /* width: 100%; */
+  /* background-color: blue;
+  font-size: 5em;
+  padding: 50px; */
+  width: 55px;
+  height: 40px;
+  text-align: center;
+  /* margin: 15pt; */
+  
+}
+.ShoppingCartContainer {
+  /* display: flex; */
+  position: fixed;
+  bottom: 15px;
+  right: 40px;
+  /* flex-flow:row wrap; */
+  /* background-color: darkblue; */
+  /* position: absolute; */
+  /* right: -15; */
+  /* bottom: 10; */
+}
+
+.ShoppingCartButton {
+  /* align-self: right; */
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  /* flex-direction: row; */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: white;
+  opacity: 0.9;
+  font-size: 25px;
+  border-width: 0px;
+  background-color: #03173b;
+}
+
+/* Overiding amplify ui components */

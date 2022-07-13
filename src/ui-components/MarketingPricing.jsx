@@ -19,7 +19,7 @@ export default function MarketingPricing(props) {
       alignItems="center"
       overflow="hidden"
       position="relative"
-      padding="40px 140px 40px 140px"
+      padding="24px 24px 24px 24px"
       backgroundColor="rgba(239,240,240,1)"
       {...rest}
       {...getOverrideProps(overrides, "MarketingPricing")}
@@ -27,11 +27,11 @@ export default function MarketingPricing(props) {
       <Flex
         gap="24px"
         direction="row"
-        width="1160px"
+        width="1392px"
         alignItems="flex-start"
         grow="1"
-        basis="1160px"
-        height="583px"
+        basis="1392px"
+        height="439px"
         position="relative"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "Frame 63")}
@@ -39,12 +39,12 @@ export default function MarketingPricing(props) {
         <Flex
           gap="24px"
           direction="column"
-          width="272px"
+          width="448px"
           justifyContent="center"
           alignItems="center"
           grow="1"
-          basis="272px"
-          height="583px"
+          basis="448px"
+          height="439px"
           position="relative"
           padding="24px 24px 24px 24px"
           backgroundColor="rgba(255,255,255,1)"
@@ -73,7 +73,7 @@ export default function MarketingPricing(props) {
             fontFamily="Inter"
             fontSize="20px"
             fontWeight="700"
-            color="rgba(48,64,80,1)"
+            color="rgba(92,102,112,1)"
             lineHeight="25px"
             textAlign="center"
             display="flex"
@@ -98,18 +98,13 @@ export default function MarketingPricing(props) {
             alignSelf="stretch"
             objectFit="cover"
             position="relative"
-            border="1px SOLID rgba(0,0,0,0)"
-            borderRadius="4px"
-            padding="7px 15px 7px 15px"
-            backgroundColor="rgba(4,125,149,1)"
             size="large"
             isDisabled={false}
             variation="primary"
             children="Primary Button"
-            {...getOverrideProps(overrides, "Buttonwef")}
+            {...getOverrideProps(overrides, "Button29766686")}
           ></Button>
           <Divider
-            height="2px"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
@@ -117,7 +112,7 @@ export default function MarketingPricing(props) {
             padding="0px 0px 0px 0px"
             size="default"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividerjpn")}
+            {...getOverrideProps(overrides, "Divider29766687")}
           ></Divider>
           <Flex
             gap="16px"
@@ -128,7 +123,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 138xkr")}
+            {...getOverrideProps(overrides, "Frame 13829766688")}
           >
             <View
               width="24px"
@@ -137,7 +132,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconfab")}
+              {...getOverrideProps(overrides, "Icon29766689")}
             >
               <Icon
                 width="17.590087890625px"
@@ -160,30 +155,30 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorxkw")}
+                {...getOverrideProps(overrides, "Vector29766690")}
               ></Icon>
             </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(48,64,80,1)"
+              color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
               display="flex"
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.01px"
-              width="184px"
+              width="360px"
               grow="1"
-              basis="184px"
+              basis="360px"
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.uyu"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.29766691"
               )}
             ></Text>
           </Flex>
@@ -196,7 +191,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 139vty")}
+            {...getOverrideProps(overrides, "Frame 13929766692")}
           >
             <View
               width="24px"
@@ -205,7 +200,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconojz")}
+              {...getOverrideProps(overrides, "Icon29766693")}
             >
               <Icon
                 width="17.590087890625px"
@@ -228,30 +223,30 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorjnx")}
+                {...getOverrideProps(overrides, "Vector29766694")}
               ></Icon>
             </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(48,64,80,1)"
+              color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
               display="flex"
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.01px"
-              width="184px"
+              width="360px"
               grow="1"
-              basis="184px"
+              basis="360px"
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.pcl"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.29766695"
               )}
             ></Text>
           </Flex>
@@ -264,7 +259,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 137xzw")}
+            {...getOverrideProps(overrides, "Frame 13729766696")}
           >
             <View
               width="24px"
@@ -273,7 +268,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconspt")}
+              {...getOverrideProps(overrides, "Icon29766697")}
             >
               <Icon
                 width="17.590087890625px"
@@ -296,30 +291,30 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorbpz")}
+                {...getOverrideProps(overrides, "Vector29766698")}
               ></Icon>
             </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(48,64,80,1)"
+              color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
               display="flex"
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.01px"
-              width="184px"
+              width="360px"
               grow="1"
-              basis="184px"
+              basis="360px"
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.kni"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.29766699"
               )}
             ></Text>
           </Flex>
@@ -327,296 +322,12 @@ export default function MarketingPricing(props) {
         <Flex
           gap="24px"
           direction="column"
-          width="272px"
+          width="448px"
           justifyContent="center"
           alignItems="center"
           grow="1"
-          basis="272px"
-          height="583px"
-          position="relative"
-          padding="24px 24px 24px 24px"
-          backgroundColor="rgba(255,255,255,1)"
-          {...getOverrideProps(overrides, "Frame 391")}
-        >
-          <Text
-            fontFamily="Inter"
-            fontSize="24px"
-            fontWeight="400"
-            color="rgba(13,26,38,1)"
-            lineHeight="30px"
-            textAlign="center"
-            display="flex"
-            direction="column"
-            justifyContent="flex-start"
-            shrink="0"
-            alignSelf="stretch"
-            objectFit="cover"
-            position="relative"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="Hobby"
-            {...getOverrideProps(overrides, "Hobby")}
-          ></Text>
-          <Text
-            fontFamily="Inter"
-            fontSize="20px"
-            fontWeight="700"
-            color="rgba(48,64,80,1)"
-            lineHeight="25px"
-            textAlign="center"
-            display="flex"
-            direction="column"
-            justifyContent="flex-start"
-            shrink="0"
-            alignSelf="stretch"
-            objectFit="cover"
-            position="relative"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="$10/mo"
-            {...getOverrideProps(overrides, "$10/mo")}
-          ></Text>
-          <Button
-            display="flex"
-            gap="0"
-            direction="row"
-            justifyContent="center"
-            alignItems="center"
-            shrink="0"
-            alignSelf="stretch"
-            objectFit="cover"
-            position="relative"
-            border="1px SOLID rgba(0,0,0,0)"
-            borderRadius="4px"
-            padding="7px 15px 7px 15px"
-            backgroundColor="rgba(4,125,149,1)"
-            size="large"
-            isDisabled={false}
-            variation="primary"
-            children="Primary Button"
-            {...getOverrideProps(overrides, "Buttonous")}
-          ></Button>
-          <Divider
-            height="2px"
-            shrink="0"
-            alignSelf="stretch"
-            objectFit="cover"
-            position="relative"
-            padding="0px 0px 0px 0px"
-            size="default"
-            orientation="horizontal"
-            {...getOverrideProps(overrides, "Divideryxj")}
-          ></Divider>
-          <Flex
-            gap="16px"
-            direction="row"
-            width="fit-content"
-            alignItems="flex-start"
-            shrink="0"
-            position="relative"
-            padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 138mas")}
-          >
-            <View
-              width="24px"
-              height="24px"
-              shrink="0"
-              overflow="hidden"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconcig")}
-            >
-              <Icon
-                width="17.590087890625px"
-                height="13.41015625px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 17.590087890625,
-                  height: 13.41015625,
-                }}
-                paths={[
-                  {
-                    d: "M5.59 10.58L1.42 6.41L0 7.82L5.59 13.41L17.59 1.41L16.18 0L5.59 10.58Z",
-                    fill: "rgba(64,170,191,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                position="absolute"
-                top="23.29%"
-                bottom="20.83%"
-                left="14.21%"
-                right="12.5%"
-                {...getOverrideProps(overrides, "Vectorxkz")}
-              ></Icon>
-            </View>
-            <Text
-              fontFamily="Inter"
-              fontSize="16px"
-              fontWeight="400"
-              color="rgba(48,64,80,1)"
-              lineHeight="24px"
-              textAlign="left"
-              display="flex"
-              direction="column"
-              justifyContent="flex-start"
-              letterSpacing="0.01px"
-              width="184px"
-              shrink="0"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-              {...getOverrideProps(
-                overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.yzr"
-              )}
-            ></Text>
-          </Flex>
-          <Flex
-            gap="16px"
-            direction="row"
-            alignItems="flex-start"
-            shrink="0"
-            alignSelf="stretch"
-            objectFit="cover"
-            position="relative"
-            padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 139uqt")}
-          >
-            <View
-              width="24px"
-              height="24px"
-              shrink="0"
-              overflow="hidden"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconqhu")}
-            >
-              <Icon
-                width="17.590087890625px"
-                height="13.41015625px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 17.590087890625,
-                  height: 13.41015625,
-                }}
-                paths={[
-                  {
-                    d: "M5.59 10.58L1.42 6.41L0 7.82L5.59 13.41L17.59 1.41L16.18 0L5.59 10.58Z",
-                    fill: "rgba(64,170,191,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                position="absolute"
-                top="23.29%"
-                bottom="20.83%"
-                left="14.21%"
-                right="12.5%"
-                {...getOverrideProps(overrides, "Vectorsdj")}
-              ></Icon>
-            </View>
-            <Text
-              fontFamily="Inter"
-              fontSize="16px"
-              fontWeight="400"
-              color="rgba(48,64,80,1)"
-              lineHeight="24px"
-              textAlign="left"
-              display="flex"
-              direction="column"
-              justifyContent="flex-start"
-              letterSpacing="0.01px"
-              width="184px"
-              grow="1"
-              basis="184px"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-              {...getOverrideProps(
-                overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.irg"
-              )}
-            ></Text>
-          </Flex>
-          <Flex
-            gap="16px"
-            direction="row"
-            width="fit-content"
-            alignItems="flex-start"
-            shrink="0"
-            position="relative"
-            padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 137iup")}
-          >
-            <View
-              width="24px"
-              height="24px"
-              shrink="0"
-              overflow="hidden"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconpnc")}
-            >
-              <Icon
-                width="17.590087890625px"
-                height="13.41015625px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 17.590087890625,
-                  height: 13.41015625,
-                }}
-                paths={[
-                  {
-                    d: "M5.59 10.58L1.42 6.41L0 7.82L5.59 13.41L17.59 1.41L16.18 0L5.59 10.58Z",
-                    fill: "rgba(64,170,191,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                position="absolute"
-                top="23.29%"
-                bottom="20.83%"
-                left="14.21%"
-                right="12.5%"
-                {...getOverrideProps(overrides, "Vectoruyq")}
-              ></Icon>
-            </View>
-            <Text
-              fontFamily="Inter"
-              fontSize="16px"
-              fontWeight="400"
-              color="rgba(48,64,80,1)"
-              lineHeight="24px"
-              textAlign="left"
-              display="flex"
-              direction="column"
-              justifyContent="flex-start"
-              letterSpacing="0.01px"
-              width="184px"
-              shrink="0"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-              {...getOverrideProps(
-                overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.pab"
-              )}
-            ></Text>
-          </Flex>
-        </Flex>
-        <Flex
-          gap="24px"
-          direction="column"
-          width="272px"
-          justifyContent="center"
-          alignItems="center"
-          grow="1"
-          basis="272px"
-          height="583px"
+          basis="448px"
+          height="439px"
           position="relative"
           padding="24px 24px 24px 24px"
           backgroundColor="rgba(255,255,255,1)"
@@ -645,7 +356,7 @@ export default function MarketingPricing(props) {
             fontFamily="Inter"
             fontSize="20px"
             fontWeight="700"
-            color="rgba(48,64,80,1)"
+            color="rgba(92,102,112,1)"
             lineHeight="25px"
             textAlign="center"
             display="flex"
@@ -670,18 +381,13 @@ export default function MarketingPricing(props) {
             alignSelf="stretch"
             objectFit="cover"
             position="relative"
-            border="1px SOLID rgba(0,0,0,0)"
-            borderRadius="4px"
-            padding="7px 15px 7px 15px"
-            backgroundColor="rgba(4,125,149,1)"
             size="large"
             isDisabled={false}
             variation="primary"
             children="Primary Button"
-            {...getOverrideProps(overrides, "Buttonezz")}
+            {...getOverrideProps(overrides, "Button29766720")}
           ></Button>
           <Divider
-            height="2px"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
@@ -689,7 +395,7 @@ export default function MarketingPricing(props) {
             padding="0px 0px 0px 0px"
             size="default"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividerhao")}
+            {...getOverrideProps(overrides, "Divider29766721")}
           ></Divider>
           <Flex
             gap="16px"
@@ -700,7 +406,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 138dwh")}
+            {...getOverrideProps(overrides, "Frame 13829766722")}
           >
             <View
               width="24px"
@@ -709,7 +415,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconvbp")}
+              {...getOverrideProps(overrides, "Icon29766723")}
             >
               <Icon
                 width="17.590087890625px"
@@ -732,30 +438,30 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorwsg")}
+                {...getOverrideProps(overrides, "Vector29766724")}
               ></Icon>
             </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(48,64,80,1)"
+              color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
               display="flex"
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.01px"
-              width="184px"
+              width="360px"
               grow="1"
-              basis="184px"
+              basis="360px"
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.tcb"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.29766725"
               )}
             ></Text>
           </Flex>
@@ -768,7 +474,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 139vsq")}
+            {...getOverrideProps(overrides, "Frame 13929766726")}
           >
             <View
               width="24px"
@@ -777,7 +483,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconilq")}
+              {...getOverrideProps(overrides, "Icon29766727")}
             >
               <Icon
                 width="17.590087890625px"
@@ -800,30 +506,30 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorxzl")}
+                {...getOverrideProps(overrides, "Vector29766728")}
               ></Icon>
             </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(48,64,80,1)"
+              color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
               display="flex"
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.01px"
-              width="184px"
+              width="360px"
               grow="1"
-              basis="184px"
+              basis="360px"
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.rep"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.29766729"
               )}
             ></Text>
           </Flex>
@@ -836,7 +542,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 137ixl")}
+            {...getOverrideProps(overrides, "Frame 13729766730")}
           >
             <View
               width="24px"
@@ -845,7 +551,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconhbj")}
+              {...getOverrideProps(overrides, "Icon29766731")}
             >
               <Icon
                 width="17.590087890625px"
@@ -868,30 +574,30 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorrgo")}
+                {...getOverrideProps(overrides, "Vector29766732")}
               ></Icon>
             </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(48,64,80,1)"
+              color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
               display="flex"
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.01px"
-              width="184px"
+              width="360px"
               grow="1"
-              basis="184px"
+              basis="360px"
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.nwi"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.29766733"
               )}
             ></Text>
           </Flex>
@@ -899,12 +605,12 @@ export default function MarketingPricing(props) {
         <Flex
           gap="24px"
           direction="column"
-          width="272px"
+          width="448px"
           justifyContent="center"
           alignItems="center"
           grow="1"
-          basis="272px"
-          height="583px"
+          basis="448px"
+          height="439px"
           position="relative"
           padding="24px 24px 24px 24px"
           backgroundColor="rgba(255,255,255,1)"
@@ -933,7 +639,7 @@ export default function MarketingPricing(props) {
             fontFamily="Inter"
             fontSize="20px"
             fontWeight="700"
-            color="rgba(48,64,80,1)"
+            color="rgba(92,102,112,1)"
             lineHeight="25px"
             textAlign="center"
             display="flex"
@@ -958,18 +664,13 @@ export default function MarketingPricing(props) {
             alignSelf="stretch"
             objectFit="cover"
             position="relative"
-            border="1px SOLID rgba(0,0,0,0)"
-            borderRadius="4px"
-            padding="7px 15px 7px 15px"
-            backgroundColor="rgba(4,125,149,1)"
             size="large"
             isDisabled={false}
             variation="primary"
             children="Primary Button"
-            {...getOverrideProps(overrides, "Buttongkh")}
+            {...getOverrideProps(overrides, "Button29766737")}
           ></Button>
           <Divider
-            height="2px"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
@@ -977,7 +678,7 @@ export default function MarketingPricing(props) {
             padding="0px 0px 0px 0px"
             size="default"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividerimg")}
+            {...getOverrideProps(overrides, "Divider29766738")}
           ></Divider>
           <Flex
             gap="16px"
@@ -988,7 +689,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 138ajl")}
+            {...getOverrideProps(overrides, "Frame 13829766739")}
           >
             <View
               width="24px"
@@ -997,7 +698,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconica")}
+              {...getOverrideProps(overrides, "Icon29766740")}
             >
               <Icon
                 width="17.590087890625px"
@@ -1020,30 +721,30 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorzjs")}
+                {...getOverrideProps(overrides, "Vector29766741")}
               ></Icon>
             </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(48,64,80,1)"
+              color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
               display="flex"
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.01px"
-              width="184px"
+              width="360px"
               grow="1"
-              basis="184px"
+              basis="360px"
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.sxd"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.29766742"
               )}
             ></Text>
           </Flex>
@@ -1056,7 +757,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 139dew")}
+            {...getOverrideProps(overrides, "Frame 13929766743")}
           >
             <View
               width="24px"
@@ -1065,7 +766,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconbum")}
+              {...getOverrideProps(overrides, "Icon29766744")}
             >
               <Icon
                 width="17.590087890625px"
@@ -1088,30 +789,30 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorhgo")}
+                {...getOverrideProps(overrides, "Vector29766745")}
               ></Icon>
             </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(48,64,80,1)"
+              color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
               display="flex"
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.01px"
-              width="184px"
+              width="360px"
               grow="1"
-              basis="184px"
+              basis="360px"
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.xkf"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.29766746"
               )}
             ></Text>
           </Flex>
@@ -1124,7 +825,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 137arz")}
+            {...getOverrideProps(overrides, "Frame 13729766747")}
           >
             <View
               width="24px"
@@ -1133,7 +834,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconfhk")}
+              {...getOverrideProps(overrides, "Icon29766748")}
             >
               <Icon
                 width="17.590087890625px"
@@ -1156,30 +857,30 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorkrn")}
+                {...getOverrideProps(overrides, "Vector29766749")}
               ></Icon>
             </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(48,64,80,1)"
+              color="rgba(13,26,38,1)"
               lineHeight="24px"
               textAlign="left"
               display="flex"
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.01px"
-              width="184px"
+              width="360px"
               grow="1"
-              basis="184px"
+              basis="360px"
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.wfa"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.29766750"
               )}
             ></Text>
           </Flex>

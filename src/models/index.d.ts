@@ -11,24 +11,21 @@ export enum BusinessCategory {
   SERVICE = "SERVICE"
 }
 
-export declare class PaymentIntent {
-  readonly clientSecret: string;
-  constructor(init: ModelInit<PaymentIntent>);
-}
+
 
 type BoosterPassMetaData = {
   readOnlyFields: 'createdAt' | 'updatedAt';
 }
 
-type UserMetaData = {
-  readOnlyFields: 'createdAt' | 'updatedAt';
-}
-
-type CouponMetaData = {
+type BusinessAdminMetaData = {
   readOnlyFields: 'createdAt' | 'updatedAt';
 }
 
 type BusinessMetaData = {
+  readOnlyFields: 'createdAt' | 'updatedAt';
+}
+
+type CouponMetaData = {
   readOnlyFields: 'createdAt' | 'updatedAt';
 }
 
@@ -59,32 +56,17 @@ export declare class BoosterPass {
   static copyOf(source: BoosterPass, mutator: (draft: MutableModel<BoosterPass, BoosterPassMetaData>) => MutableModel<BoosterPass, BoosterPassMetaData> | void): BoosterPass;
 }
 
-export declare class User {
+export declare class BusinessAdmin {
   readonly id: string;
   readonly email?: string | null;
   readonly phonenumber?: string | null;
   readonly username?: string | null;
-  readonly Coupons?: (Coupon | null)[] | null;
-  readonly BoosterPass?: (BoosterPass | null)[] | null;
+  readonly businessID: string;
+  readonly Business?: Business | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
-  constructor(init: ModelInit<User, UserMetaData>);
-  static copyOf(source: User, mutator: (draft: MutableModel<User, UserMetaData>) => MutableModel<User, UserMetaData> | void): User;
-}
-
-export declare class Coupon {
-  readonly id: string;
-  readonly business: Business;
-  readonly userID?: string | null;
-  readonly couponType: CouponType | keyof typeof CouponType;
-  readonly currentPrice?: number | null;
-  readonly discountPrice?: number | null;
-  readonly itemDescription: string;
-  readonly expirationDate?: string | null;
-  readonly createdAt?: string | null;
-  readonly updatedAt?: string | null;
-  constructor(init: ModelInit<Coupon, CouponMetaData>);
-  static copyOf(source: Coupon, mutator: (draft: MutableModel<Coupon, CouponMetaData>) => MutableModel<Coupon, CouponMetaData> | void): Coupon;
+  constructor(init: ModelInit<BusinessAdmin, BusinessAdminMetaData>);
+  static copyOf(source: BusinessAdmin, mutator: (draft: MutableModel<BusinessAdmin, BusinessAdminMetaData>) => MutableModel<BusinessAdmin, BusinessAdminMetaData> | void): BusinessAdmin;
 }
 
 export declare class Business {
@@ -99,13 +81,25 @@ export declare class Business {
   static copyOf(source: Business, mutator: (draft: MutableModel<Business, BusinessMetaData>) => MutableModel<Business, BusinessMetaData> | void): Business;
 }
 
+export declare class Coupon {
+  readonly id: string;
+  readonly business: Business;
+  readonly couponType?: CouponType | keyof typeof CouponType | null;
+  readonly currentPrice?: number | null;
+  readonly discountPrice?: number | null;
+  readonly itemDescription: string;
+  readonly startDate?: string | null;
+  readonly expirationDate?: string | null;
+  readonly createdAt?: string | null;
+  readonly updatedAt?: string | null;
+  constructor(init: ModelInit<Coupon, CouponMetaData>);
+  static copyOf(source: Coupon, mutator: (draft: MutableModel<Coupon, CouponMetaData>) => MutableModel<Coupon, CouponMetaData> | void): Coupon;
+}
+
 export declare class Product {
   readonly id: string;
   readonly title: string;
   readonly description?: string | null;
-  readonly image?: string | null;
-  readonly images?: string[] | null;
-  readonly options?: string[] | null;
   readonly price: number;
   readonly oldPrice?: number | null;
   readonly createdAt?: string | null;

@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.Header {
+  display: block;
+  font-size: 5em;
+  text-align: center;
+}
+
+.amplify-card {
+  border: 1px solid darkblue;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 50px;
+  /* --amplify-components-card-elevated-border-width: 20px;
+  --amplify-components-card-elevated-background-color: black;
+  --amplify-components-card-box-shadow: 50px;
+  --amplify-components-card-elevated-border-radius: 10px;
+  --amplify-components-card-elevated-border-width: 50px; */
+  
+
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

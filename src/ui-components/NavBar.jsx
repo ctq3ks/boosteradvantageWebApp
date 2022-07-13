@@ -6,7 +6,10 @@
 
 /* eslint-disable */
 import React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import {
+  getOverrideProps,
+  useNavigateAction,
+} from "@aws-amplify/ui-react/internal";
 import {
   Flex,
   Icon,
@@ -17,6 +20,7 @@ import {
 } from "@aws-amplify/ui-react";
 export default function NavBar(props) {
   const { overrides, ...rest } = props;
+  const dashboardOnClick = useNavigateAction({ type: "url", url: "" });
   return (
     <Flex
       gap="20px"
@@ -41,7 +45,7 @@ export default function NavBar(props) {
         alignSelf="stretch"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Logo")}
+        {...getOverrideProps(overrides, "Logo29767073")}
       >
         <Icon
           width="18px"
@@ -74,7 +78,7 @@ export default function NavBar(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Logo"
-          {...getOverrideProps(overrides, "Logokpo")}
+          {...getOverrideProps(overrides, "Logo29767075")}
         ></Text>
       </Flex>
       <Flex
@@ -87,7 +91,7 @@ export default function NavBar(props) {
         height="24px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 321jmb")}
+        {...getOverrideProps(overrides, "Frame 32129767076")}
       >
         <Text
           fontFamily="Inter"
@@ -105,6 +109,9 @@ export default function NavBar(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Dashboard"
+          onClick={() => {
+            dashboardOnClick();
+          }}
           {...getOverrideProps(overrides, "Dashboard")}
         ></Text>
         <Text
@@ -173,7 +180,7 @@ export default function NavBar(props) {
         height="45px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 321fmd")}
+        {...getOverrideProps(overrides, "Frame 32129767081")}
       >
         <SearchField
           display="flex"
