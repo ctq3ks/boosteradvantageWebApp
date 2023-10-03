@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# The accompanying react web app for Booster Advantage
+
+This web app is to serve as the administrative portal for school admin and businesses for Booster Advantage.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
